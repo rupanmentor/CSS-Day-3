@@ -1,0 +1,119 @@
+h1{
+    color: red;
+}
+/* media queries for print */
+@media print{
+    h1{
+        width: 200px;
+        height: auto;
+        border: 2px solid red;
+        color: aqua;
+    }
+}
+@media print and (orientation: landscape){
+    h1{
+        width: 200px;
+        height: auto;
+        border: 2px solid aqua;
+        color: darkgoldenrod;
+    }
+}
+
+/* media queries for screen maxwidth */
+/* 
+@media screen and (max-width:1024px){
+    h1{
+        width: 200px;
+        height: auto;
+        border: 2px solid black;
+        color: lightcoral;
+        background-color: aqua;
+    }
+}
+
+@media screen and (max-width:768px){
+    h1{
+        width: 200px;
+        height: auto;
+        border: 2px solid red;
+        color: lightcoral;
+        background-color: black;
+    }
+}
+
+@media screen and (max-width:425px){
+    h1{
+        width: 200px;
+        height: auto;
+        border: 2px solid red;
+        color: aqua;
+    }
+} */
+/* media queries for screen minwidth */
+/* 
+@media screen and (min-width:320px){
+    h1{
+        width: 200px;
+        height: auto;
+        border: 2px solid red;
+        color: aqua;
+    }
+}
+@media screen and (min-width:768px){
+    h1{
+        width: 200px;
+        height: auto;
+        border: 2px solid red;
+        color: lightcoral;
+        background-color: black;
+    }
+}
+@media screen and (min-width:1024px){
+    h1{
+        width: 200px;
+        height: auto;
+        border: 2px solid black;
+        color: lightcoral;
+        background-color: aqua;
+    }
+} */
+
+/* media queries for screen both maxwidth and minwidth */
+/* @media screen and (min-width:1025px){
+    h1{
+        width: 200px;
+        height: auto;
+        border: 2px solid black;
+        color: green;
+        background-color: tomato;
+    }
+}
+
+@media screen and (max-width:1024px){
+    h1{
+        width: 200px;
+        height: auto;
+        border: 2px solid black;
+        color: lightcoral;
+        background-color: aqua;
+    }
+}
+
+@media screen and (max-width:768px){
+    h1{
+        width: 200px;
+        height: auto;
+        border: 2px solid red;
+        color: lightcoral;
+        background-color: black;
+    }
+}
+
+@media screen and (max-width:425px){
+    h1{
+        width: 200px;
+        height: auto;
+        border: 2px solid red;
+        color: aqua;
+    }
+} */
