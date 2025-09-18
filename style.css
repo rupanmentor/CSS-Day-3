@@ -3,6 +3,7 @@
     --clr-light:#e5ec51;
     --clr-dark:#000000;
     --clr-accent:#15f5f5;
+    --clr-box:#971ef3;
 }
 *,
 *::before,
@@ -31,7 +32,7 @@ body{
 .item{
     width: 150px;
     height: 150px;
-    background-color: #971ef3;
+    background-color: var(--clr-box);
     padding: 1em;
     font-weight: 700;
     color: var(--clr-light);
@@ -42,5 +43,10 @@ body{
 /* Base style ends */
 .container{
   display: flex;
-  flex-direction: column-reverse;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.item{
+    flex-basis: 50%;
 }
