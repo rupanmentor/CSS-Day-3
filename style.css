@@ -47,6 +47,12 @@ body{
   justify-content: center;
   align-items: center;
 }
-.item{
+/* .item{
     flex-basis: 50%;
+} */
+.item-2{
+    flex-grow: 5;
+}
+.item-3{
+    flex-shrink: 0;
 }
